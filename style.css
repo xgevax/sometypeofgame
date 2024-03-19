@@ -1,0 +1,37 @@
+.highlight {
+  background-color: yellow;
+}
+
+@keyframes descend {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(300px);
+  }
+}
+
+.type-word {
+  position: absolute;
+  display: inline;
+  animation: descend 15s linear;
+}
+
+/* .type-word.animation {
+  -webkit-transition: 15s;
+  -moz-transition: 15s;
+  -ms-transition: 15s;
+  -o-transition: 15s;
+  transition: 15s;
+  transition-timing-function: linear;
+  margin-top: 300px !important;
+} */
+
+/* .faster-animation {
+  -webkit-transition: 7s;
+  -moz-transition: 7s;
+  -ms-transition: 7s;
+  -o-transition: 7s;
+  transition: margin-top 7s;
+  margin-top: 300px;
+} */
